@@ -7,9 +7,9 @@
 .then(text => {
   
   const array = text.split("\n");
-  foto.style.backgroundImage=`url(${array[1]})`
-  nome.innerHTML = array[0];
-  title.innerHTML ='Portfolio: '+array[0];
+  //foto.style.backgroundImage=`url(${array[1]})`
+  //nome.innerHTML = array[0];
+  //title.innerHTML ='Portfolio: '+array[0];
   console.log(title.innerHTML);
 })
 
