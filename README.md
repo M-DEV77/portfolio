@@ -12,3 +12,4 @@ estou determinado a fazer a transição para a área que sempre me fascinou. Min
 projetista me confere uma perspectiva única, combinando conhecimento técnico com uma capacidade comprovada de liderança, 
 comunicação e adaptabilidade. Estou em busca de uma oportunidade para aplicar todo esse conhecimento e paixão em um novo 
 capítulo da minha carreira, contribuindo com minha vasta experiência e meu entusiasmo pela engenharia de software.
+<a href="https:\\marceloolimpio.com.br">Portfólio</a>
