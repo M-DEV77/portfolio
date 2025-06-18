@@ -47,11 +47,28 @@ font-weight: 500;
     position: fixed;
     z-index: 5;
 }
-.foto{
-    margin-left: 5vw;
+#foto{
+    position: relative;
+    
     width: auto;
     height:50vh;
+    animation-name: foto1;
+    animation-duration:  30s;
+    animation-iteration-count: infinite;
 }
+
+@keyframes foto1{
+    0%{margin-right:0px}
+    40%{margin-left:100px}
+    50%{margin-right:0px}
+    80%{margin-right:100px}
+    100%{margin-right:0px}
+
+    
+}
+
+
+
 .content{
     height: 50vh;
     width: 60vw;
