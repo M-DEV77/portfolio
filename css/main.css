@@ -166,8 +166,19 @@ font-weight: 500;
     .box{
         height: 50vh;
     }
+    .btn{
+        font-size: 14px;
+     } 
     #menu{
         display:none;
+        position: absolute;
+        background-color: #8f5c09;
+        top:60px;
+        
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100vw;
+        height: 0vh;
      } 
      .cw{
         justify-content:flex-end;
@@ -196,9 +207,21 @@ font-weight: 500;
     
 @media screen and (min-width: 481px) and (max-width: 768px) {
  #menu{
-    display:none;
+    
+   display:none;
+   position: absolute;
+   background-color: #8f5c09;
+   top:60px;
    
- }   
+   flex-direction: column;
+   justify-content: space-around;
+   width: 100vw;
+   height: 0vh;
+
+ }  
+ .btn{
+    font-size: 18px;
+ } 
 .content{
     position: absolute;
 }
