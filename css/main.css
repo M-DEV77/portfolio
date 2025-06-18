@@ -96,6 +96,18 @@ font-weight: 500;
     font-size: 1.8vw;
     color: #ccbfa7;
 }
+.btnCell{
+    
+    cursor: pointer;
+    display: none;
+    height: 7vh;
+    width: 8vh;
+}
+.pt{
+   height: 3px;
+   width: 5vh; 
+   background-color: #2E2F34;    
+}
 .btn{
     text-decoration: none;
     margin-left: 2vw;
@@ -142,4 +154,93 @@ font-weight: 500;
 .box2{
     
     background-image: var(--bg4),var(--img2);
+}
+/* max-width  */
+@media screen and (min-width: 20px) and (max-width: 480px) {
+    .content{
+        position: absolute;
+    }
+    #foto{
+        height: 200px;
+    }
+    .box{
+        height: 50vh;
+    }
+    #menu{
+        display:none;
+     } 
+     .cw{
+        justify-content:flex-end;
+    }
+    
+    .btnCell{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .btnCell:hover #pt2 {
+       display: none;
+    }
+    .btnCell:hover #pt1 {
+        transform: rotate(45deg);
+        transition: transform 1s ease;
+        position: absolute;
+     }
+     .btnCell:hover #pt3 {
+        transform: rotate(-45deg);
+        transition: transform 1s ease;
+        position: absolute;
+     }
+    }
+    
+@media screen and (min-width: 481px) and (max-width: 768px) {
+ #menu{
+    display:none;
+   
+ }   
+.content{
+    position: absolute;
+}
+#foto{
+    height: 300px;
+}
+.box{
+    height: 70vh;
+}
+.cw{
+    justify-content:flex-end;
+}
+.btnCell{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.btnCell:hover #pt2 {
+   display: none;
+}
+.btnCell:hover #pt1 {
+    transform: rotate(45deg);
+    transition: transform 1s ease;
+    position: absolute;
+ }
+ .btnCell:hover #pt3 {
+    transform: rotate(-45deg);
+    transition: transform 1s ease;
+    position: absolute;
+ }
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+
+}
+
+@media screen and (min-width: 1281px) and (max-width: 3000px) {
+
 }
