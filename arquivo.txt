@@ -1,0 +1,16 @@
+Marcelo Olimpio 
+"./img/foto.png"
+https://marceloolimpio.com.br
+https://github.com/M-DEV77
+Masculino
+29 de novembro de 1977
+Projetista e Programador fullstack
+
+
+
+
+
+
+configuração das linhas
+1-nome 
+2-
